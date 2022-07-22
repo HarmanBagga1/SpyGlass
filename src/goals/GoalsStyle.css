@@ -1,0 +1,59 @@
+.goalsContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.goalsContent > div {
+    width: max(300px, 30vw);
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.goal > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1em;
+    width: 1em;
+    background-color: var(--Cream);
+    color: var(--DarkRed);
+    border-radius: 50%;
+    font-size: 7em;
+    padding: 0.1em;
+}
+
+.goal .progressBar {
+    font-size: 1em;
+    padding: 0;
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: var(--Cream);
+    border-radius: 1em;
+}
+
+.goal .progressBar div {
+    height: 1em;
+    width: 0%;
+    background-color: var(--LightRed);
+    border-radius: 0.9em;
+}
+
+.finishedGoals .goal > div {
+    color: var(--DarkGreen);
+}
+
+.finishedGoals .goal .progressBar div {
+    background-color: var(--LightGreen);
+}
+
+.goalCheckbox {
+    position: relative;
+    top: 0.2em;
+    color: var(--LightGreen);
+    font-weight: bold;
+}

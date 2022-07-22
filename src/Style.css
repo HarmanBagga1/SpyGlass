@@ -1,0 +1,58 @@
+:root {
+    --Cream: #ffefef;
+    --White: #ffffff;
+    --Dark: #231f20;
+    --Gray: #afafaf;
+    --DarkRed: #a20a35;
+    --LightRed: #d1577a;
+    --DarkGreen: #32533D;
+    --LightGreen: #5B8C5A;
+    --Shadow: rgba(0, 0, 0, 0.2)
+}
+
+body {
+    background: linear-gradient(60deg, var(--DarkRed) 100%, var(--LightRed) 100%);
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: var(--Dark);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 5em;
+    color: var(--White);
+    background: linear-gradient(to right, var(--DarkRed), var(--LightRed));
+    border: 0;
+    padding: 0.8em 3.6em;
+    font-size: 13px;
+}
+
+button:hover {
+    color: var(--Gray)
+}
+
+form a {
+    color: var(--Dark);
+    text-decoration: none;
+}
+
+form a:hover {
+    color: var(--Gray)
+}
+
+.content {
+    padding-top: 3.5em;
+    text-align: center;
+    color: var(--White);
+    height: calc(100vh - 3.5em);
+}
+
+h1.title {
+    color: var(--White);
+    font-size: 3em;
+}

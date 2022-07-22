@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <title>Spyglass</title>
+  <link href="home.css" rel="stylesheet" type="text/css" />
+  
+</head>
+ <div class="sidepanel"  id="mySidepanel">
+  <div class="container borderXwidth">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav();blurToggle()">×</a>
+    <a>HOME</a>
+    <a href="goals.html">GOALS</a>
+    <a>SUPPORT</a>
+    <a href="guide.html">GUIDE</a>
+    <a>ABOUT US</a>
+  </div>
+</div>
+
+
+  <div class="icon">
+    <i class="material-icons w3-xxlarge">home</i>
+    <img src="vanguard.png" class="van" style="width: 100px; height: 30px;">
+  </div>
+
+  <div class="search-container">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="material-icons w3-large" id="icon2">search</i></button>
+</div>
+
+<button class="openbtn" onclick="openNav();blurToggle()">☰</button>
+
+<div class="background" id="blur">
+<div class="header">
+  <div class="inner-header flex1">
+    <!-- <img src="image2.png"> -->
+  <h1>Welcome to Spyglass!</h1>
+  
+  </div>
+  <p class="line-1 anim-typewriter">some random text that sounds intriguing!! </p>
+ 
+  <div>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+  <defs>
+  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+  </defs>
+  <g class="parallax">
+  <use xlink:href="#gentle-wave" x="38" y="0" fill="rgba(255,255,255,0.7" />
+  <use xlink:href="#gentle-wave" x="38" y="3" fill="rgba(255,255,255,0.5)" />
+  <use xlink:href="#gentle-wave" x="38" y="5" fill="rgba(255,255,255,0.3)" />
+  <use xlink:href="#gentle-wave" x="38" y="7" fill="#fff" />
+  </g>
+  </svg>
+  </div>
+  </div>
+
+
+</div>
+
+<body>
+  <script src="script.js"></script>
+</body>
+
+</html>
